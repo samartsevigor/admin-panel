@@ -1,0 +1,12 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.featuredItem{
+    margin: 0 20px;
+    padding: 30px;
+    box-shadow: 0 0 5px 0 black;
+    flex: 1;
+    border-radius: 8px;
+}
