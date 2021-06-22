@@ -1,7 +1,7 @@
 .chart{
     margin: 20px;
     padding: 20px;
-    box-shadow: 0 0 16px 1px #0000005e;
+    box-shadow: 0 0 4px 0 #0000005e;
 }
 .chartTitle{
     margin-bottom: 20px;

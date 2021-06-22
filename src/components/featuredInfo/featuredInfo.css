@@ -6,7 +6,7 @@
 .featuredItem{
     margin: 0 20px;
     padding: 30px;
-    box-shadow: 0 0 16px 1px #0000005e;
+    box-shadow: 0 0 4px 0 #0000005e;
     flex: 1;
     border-radius: 8px;
     cursor: pointer;
