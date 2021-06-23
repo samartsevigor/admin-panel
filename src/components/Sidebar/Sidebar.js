@@ -83,7 +83,7 @@ const Sidebar = () => {
               Manage
             </li>
             <li className="sideBarListItem">
-                   <Timeline className="sidebarIcon"/>
+              <Timeline className="sidebarIcon"/>
               Analytics
             </li>
             <li className="sideBarListItem">
