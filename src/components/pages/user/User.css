@@ -81,3 +81,50 @@
     display: inline-block;
     color: #757575;
 }
+
+.userUpdateTitle{
+    font-weight: 600;
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+}
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+}
+.userUpdateUpload{
+    text-align: center;
+}
+.userUpdateItem>label{
+    margin-bottom: 10px;
+}
+.userUpdateItem>input{
+    border: none;
+    border-bottom: 1px solid #c6c6c6;
+    width: 240px;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+}
+.userUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.userUploadBtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #8db4e9;
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.userUploadIcon{
+    margin-right: 10px;
+}

@@ -5,7 +5,8 @@ import {
   MailOutlineOutlined,
   PinDropOutlined,
   EventOutlined,
-  PhoneAndroidOutlined
+  PhoneAndroidOutlined,
+  CloudUploadOutlined
 } from '@material-ui/icons'
 
 const User = () => {
@@ -51,7 +52,53 @@ const User = () => {
             </div>
           </div>
         </div>
-        <div className="userUpdate">Update</div>
+        <div className="userUpdate">
+          <span className="userUpdateTitle">Edit</span>
+          <form className="userUpdateForm">
+            <div className="userUpdateLeft">
+              <div className="userUpdateItem">
+                <label htmlFor="username">Username</label>
+                <input type="text" placeholder="alena555"/>
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="username">Username</label>
+                <input type="text" placeholder="alena555"/>
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="fullname">Full name</label>
+                <input type="text" placeholder="Alena Samartseva"/>
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="username">Email</label>
+                <input type="email" placeholder="email"/>
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="phone">Phone</label>
+                <input type="tel" placeholder="+971 5858 30 841"/>
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="username">Username</label>
+                <input type="text" placeholder="alena555"/>
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="username">Address</label>
+                <input type="text" placeholder="New York | USA"/>
+              </div>
+            </div>
+            <div className="userUpdateRight">
+              <div className="userUpdateUpload">
+                <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="" className="userUploadImg"/>
+                <label htmlFor="userUpdateUploadLabel">
+                  <span className="userUploadBtn">
+                    <CloudUploadOutlined className="userUploadIcon"/>
+                      Upload photo
+                  </span>
+                   </label>
+                <input type="file" id="userUpdateUploadLabel" style={{display: "none"}}/>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
